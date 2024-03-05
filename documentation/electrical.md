@@ -31,8 +31,26 @@ Footprint
 - 50mm round
 
 Interconnects
-- HiRose DF17U
+- HiRose DF17 30 pin
 - TODO: Determine pinout and # positions and location
+- Interconnect map
+|#|Assingment|Assingment|#|
+|-|----------|----------|-|
+|0|NC|NC|29|
+|1|NC|NC|28|
+|2|NC|NC|27|
+|3|NC|NC|26|
+|4|NC|NC|25|
+|5|NC|NC|24|
+|6|NC|NC|23|
+|7|NC|NC|22|
+|8|NC|NC|21|
+|9|NC|NC|20|
+|10|NC|NC|19|
+|11|NC|NC|18|
+|12|NC|NC|17|
+|13|NC|NC|16|
+|14|NC|NC|15|
 - Belongs on interconnect:
 -- 5V
 -- 5V
