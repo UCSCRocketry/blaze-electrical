@@ -28,8 +28,30 @@ Power Management Board
 
 ## Standards
 Footprint
-- 40mm round
+- 50mm round
 
 Interconnects
 - HiRose DF17U
 - TODO: Determine pinout and # positions and location
+- Belongs on interconnect:
+-- 5V
+-- 5V
+-- 3.3V
+-- 3.3V
+-- 3.3V
+-- 3.3V
+-- V<sub>batt</sub>
+-- V<sub>batt</sub>
+-- GND
+-- GND
+-- GND
+-- GND
+-- GND
+-- CAN1 Hi
+-- CAN1 Lo
+-- CAN2 Hi
+-- CAN2 Lo
+-- UART Rx
+-- UART Tx
+-- 1PPS
+
