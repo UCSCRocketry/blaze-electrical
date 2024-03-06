@@ -36,40 +36,18 @@ Interconnects
 - Interconnect map
 |#|Assingment|Assingment|#|
 |-|----------|----------|-|
-|0|NC|NC|29|
-|1|NC|NC|28|
-|2|NC|NC|27|
-|3|NC|NC|26|
-|4|NC|NC|25|
-|5|NC|NC|24|
-|6|NC|NC|23|
-|7|NC|NC|22|
-|8|NC|NC|21|
-|9|NC|NC|20|
-|10|NC|NC|19|
-|11|NC|NC|18|
-|12|NC|NC|17|
-|13|NC|NC|16|
-|14|NC|NC|15|
-- Belongs on interconnect:
--- 5V
--- 5V
--- 3.3V
--- 3.3V
--- 3.3V
--- 3.3V
--- V<sub>batt</sub>
--- V<sub>batt</sub>
--- GND
--- GND
--- GND
--- GND
--- GND
--- CAN1 Hi
--- CAN1 Lo
--- CAN2 Hi
--- CAN2 Lo
--- UART Rx
--- UART Tx
--- 1PPS
-
+|0|V<sub>batt</batt>|3.3V|29|
+|1|V<sub>batt</batt>|3.3V|28|
+|2|GND|5V|27|
+|3|GND|5V|26|
+|4|RADIO TX|NEOPIXEL|25|
+|5|RADIO RX|AUDIO|24|
+|6|Unused|CAN1 HI|23|
+|7|Unused|CAN1 LO|22|
+|8|GPS RX|GND|21|
+|9|GPS TX|GND|20|
+|10|5V|CAN2 HI|19|
+|11|3.3V|CAN2 LO|18|
+|12|1PPS|3.3V|17|
+|13|GND|Unused|16|
+|14|GND|Unused|15|
