@@ -10,7 +10,8 @@ Picofusion
 
 Brain Board
 - MCU
-- TODO: OS Processing power requirements
+- V0 Board is a Teensy 4.1 Carrier Board
+    - V1 Board will use a MCU from the same series. V0 decision made to speed development.
 
 IO Board
 - Inputs and outputs, as well as pyro switches
@@ -52,3 +53,10 @@ Interconnects
 | 12 | 1PPS | 3.3V | 17 |
 | 13 | GND | Unused | 16 |
 | 14 | GND | Unused | 15 |
+
+## Development Order
+1. Brain Board v0
+2. Power Management Board
+3. IO Board
+4. Radio Board
+5. GPS Board
