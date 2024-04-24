@@ -4,9 +4,17 @@ GPS
 - GPS Module with antenna that can interface with Picofusion sensor fusion
 - TODO: Spec antenna
 
-Picofusion
-- External blob with sensors and sensor fusion
-- TODO: Communicate interconnect
+IMU
+- Board with sensors and sensor fusion processing
+
+| Sensor | Manufacturer | Model |
+| - | - | - |
+| IMU | Bosch | BMI088 |
+| High-G Accelerometer | Analog Devices | ADXL375BCCZ |
+| Low-G Accelerometer | Analog Devices | ADXL345 |
+| Gyroscope | ST | A3G4250D |
+| Barometer | TE | MS561101 |
+| Magnetometer | PNI | RM3100 |
 
 Brain Board
 - MCU
