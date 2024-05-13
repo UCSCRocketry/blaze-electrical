@@ -18,8 +18,14 @@ IMU
 
 Brain Board
 - MCU
-- V0 Board is a Teensy 4.1 Carrier Board
+- V0 Board is a Teensy 4.0 Carrier Board
     - V1 Board will use a MCU from the same series. V0 decision made to speed development.
+- Interconnect to IO board
+- Neopixel integrated and output
+- SPI Flash memory - Winbond W25
+- Micro SD
+- AUX power in
+- Physical arm switch
 
 IO Board
 - Inputs and outputs, as well as pyro switches
@@ -37,11 +43,10 @@ Power Management Board
 
 ## Standards
 Footprint
-- 50mm round
+- 45mm round
 
 Interconnects
 - HiRose DF17 30 pin
-- TODO: Determine pinout and # positions and location
 - Interconnect map
 
 | # | Assingment | Assingment | # |
