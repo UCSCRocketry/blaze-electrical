@@ -10,3 +10,5 @@ Component Selection
 |6|Arm| | ||
 |7|3V3 Reg|Diodes|AZ1117IH-3.3TRG1||
 |8|5V Reg|Diodes|AZ1117IH-5.0TRG1||
+|9|SD FET|ON|FDN340P|Inrush current limiting for SD|
+|10|Rev FET|Diodes|DMG2305UX|Reverse voltage mosfet|
