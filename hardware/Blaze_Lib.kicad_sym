@@ -64,7 +64,7 @@
 		)
 		(symbol "INA2181_1_0"
 			(pin power_in line
-				(at 8.89 -5.08 180)
+				(at -8.89 5.08 0)
 				(length 2.54)
 				(name "VS"
 					(effects
@@ -100,7 +100,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 0 0)
+				(at -8.89 -5.08 0)
 				(length 2.54)
 				(name "IN+1"
 					(effects
@@ -118,7 +118,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 -2.54 0)
+				(at 8.89 -5.08 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -136,7 +136,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -5.08 0)
+				(at 8.89 -2.54 180)
 				(length 2.54)
 				(name "REF1"
 					(effects
@@ -154,7 +154,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 5.08 180)
+				(at 8.89 0 180)
 				(length 2.54)
 				(name "REF2"
 					(effects
@@ -172,7 +172,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 2.54 180)
+				(at -8.89 -2.54 0)
 				(length 2.54)
 				(name "IN+2"
 					(effects
@@ -190,7 +190,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 0 180)
+				(at -8.89 2.54 0)
 				(length 2.54)
 				(name "IN-2"
 					(effects
@@ -208,7 +208,7 @@
 				)
 			)
 			(pin output line
-				(at 8.89 -2.54 180)
+				(at 8.89 5.08 180)
 				(length 2.54)
 				(name "OUT2"
 					(effects
@@ -228,7 +228,7 @@
 		)
 		(symbol "INA2181_1_1"
 			(pin output line
-				(at -8.89 5.08 0)
+				(at 8.89 2.54 180)
 				(length 2.54)
 				(name "OUT1"
 					(effects
@@ -246,7 +246,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 2.54 0)
+				(at -8.89 0 0)
 				(length 2.54)
 				(name "IN-1"
 					(effects
