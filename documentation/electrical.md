@@ -37,9 +37,8 @@ Radio Board
 
 Power Management Board
 - Creates voltages of battery for rest of boards
-- 3.3V 5V V<sub>batt</sub>
+- 3.3V@2A 5V@2A V<sub>batt</sub>
 - 2S (7.4V) - 3S (11.1V) LiPo XT60 input
-- TODO: Determine current requirement
 
 ## Standards
 Footprint
@@ -70,6 +69,7 @@ Interconnects
 ## Development Order
 1. Brain Board v0
 2. Power Management Board
+4. Sense Board
 3. IO Board
 4. Radio Board
 5. GPS Board
