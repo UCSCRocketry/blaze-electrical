@@ -10322,6 +10322,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 220.98) (xy 148.59 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "097c763e-2dd7-449d-969d-4c7dcf1517c2")
+	)
+	(wire
+		(pts
 			(xy 336.55 71.12) (xy 340.36 71.12)
 		)
 		(stroke
@@ -10559,6 +10569,16 @@
 			(type default)
 		)
 		(uuid "1b960954-fc3a-45a7-830a-e0d4472ba1cc")
+	)
+	(wire
+		(pts
+			(xy 133.35 228.6) (xy 151.13 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca37f19-6b94-4a01-a406-df797bce5ea9")
 	)
 	(wire
 		(pts
@@ -10979,6 +10999,16 @@
 			(type default)
 		)
 		(uuid "3f3681cb-a036-4a3c-86ab-01d322d6303d")
+	)
+	(wire
+		(pts
+			(xy 133.35 215.9) (xy 149.86 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f981c34-82a0-45cc-bb09-8521b9c6ca07")
 	)
 	(wire
 		(pts
@@ -11472,6 +11502,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 226.06) (xy 151.13 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed727a3-26f8-4e14-8282-e64e6c8b34ee")
+	)
+	(wire
+		(pts
 			(xy 133.35 76.2) (xy 144.78 76.2)
 		)
 		(stroke
@@ -11539,16 +11579,6 @@
 			(type default)
 		)
 		(uuid "76a07dcb-86ab-480b-99f9-fcad0bf5d99b")
-	)
-	(wire
-		(pts
-			(xy 133.35 93.98) (xy 138.43 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "770ac583-9e5c-49a8-b1b7-7e3aab2305e6")
 	)
 	(wire
 		(pts
@@ -11932,6 +11962,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 213.36) (xy 149.86 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "951c2174-5664-4bf0-86fa-4f1162858f9a")
+	)
+	(wire
+		(pts
 			(xy 339.09 105.41) (xy 340.36 105.41)
 		)
 		(stroke
@@ -11959,16 +11999,6 @@
 			(type default)
 		)
 		(uuid "96473179-8a2c-4354-b476-b8ac4908d01c")
-	)
-	(wire
-		(pts
-			(xy 138.43 95.25) (xy 138.43 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96b7256a-3b47-4b73-a084-618cd0b88272")
 	)
 	(wire
 		(pts
@@ -12142,16 +12172,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 95.25) (xy 152.4 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a130ffaa-64ba-4109-8364-584cf8683feb")
-	)
-	(wire
-		(pts
 			(xy 361.95 76.2) (xy 360.68 76.2)
 		)
 		(stroke
@@ -12159,6 +12179,16 @@
 			(type default)
 		)
 		(uuid "a148bdfd-9252-4250-822c-a19a122d6da7")
+	)
+	(wire
+		(pts
+			(xy 133.35 223.52) (xy 151.13 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a184f03c-d082-418e-81ab-61562ba7b86c")
 	)
 	(wire
 		(pts
@@ -12229,6 +12259,16 @@
 			(type default)
 		)
 		(uuid "a5c4239d-8d64-4c47-a9c9-3c1fcff1725f")
+	)
+	(wire
+		(pts
+			(xy 133.35 93.98) (xy 147.32 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e65954-02d8-44a4-a707-59a5b68f6af8")
 	)
 	(wire
 		(pts
@@ -12469,6 +12509,16 @@
 			(type default)
 		)
 		(uuid "bb526dbf-d663-4e63-a517-9016d854aa14")
+	)
+	(wire
+		(pts
+			(xy 133.35 231.14) (xy 151.13 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcdc7e21-f9fa-4724-bcb9-dae5c63bb4e0")
 	)
 	(wire
 		(pts
@@ -12862,6 +12912,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 233.68) (xy 143.51 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6809c50-0333-44f9-9425-38e599ae74f8")
+	)
+	(wire
+		(pts
 			(xy 133.35 73.66) (xy 144.78 73.66)
 		)
 		(stroke
@@ -12899,6 +12959,16 @@
 			(type default)
 		)
 		(uuid "d8bfbc1d-74f9-4469-bb78-dba0d8ae42ce")
+	)
+	(wire
+		(pts
+			(xy 133.35 218.44) (xy 148.59 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c98d0f-f131-4154-b3d2-a319934d35a7")
 	)
 	(wire
 		(pts
@@ -14076,7 +14146,7 @@
 		(uuid "cf3f86c3-f05f-481d-903e-54779c900c42")
 	)
 	(label "CS_ACCEL_IMU"
-		(at 138.43 95.25 0)
+		(at 133.35 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14118,17 +14188,6 @@
 			(justify right bottom)
 		)
 		(uuid "db485ffc-4d14-443e-b316-20416549abd7")
-	)
-	(label "TRST"
-		(at 133.35 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dcf283de-af0f-4731-9469-2ef2b5d90866")
 	)
 	(label "INT_ACCEL_IMU_1"
 		(at 208.28 58.42 0)
