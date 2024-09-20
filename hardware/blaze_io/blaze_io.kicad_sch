@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "364242f4-3b34-4bb6-a316-e0273e090451")
 	(paper "A4")
+	(title_block
+		(title "Blaze IO")
+		(date "2024-09-19")
+		(rev "1")
+		(company "UCSC Rocket Team")
+		(comment 1 "Designed by Julian Barbera")
+	)
 	(lib_symbols
 		(symbol "Blaze_Lib:TCAN1044"
 			(exclude_from_sim no)
