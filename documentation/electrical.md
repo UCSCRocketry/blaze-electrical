@@ -1,7 +1,7 @@
 # Electrical
 ## Summary of Boards
 GPS
-- GPS Module with antenna that can interface with Picofusion sensor fusion
+- GPS Module with antenna that can interface with sensor fusion
 - TODO: Spec antenna
 
 IMU
@@ -33,7 +33,7 @@ IO Board
 
 Radio Board
 - Radio communication with ground control
-- TODO: Compare radio options
+- RFD900X Module
 
 Power Management Board
 - Creates voltages of battery for rest of boards
@@ -71,5 +71,10 @@ Interconnects
 2. Power Management Board
 4. Sense Board
 3. IO Board
-4. Radio Board
-5. GPS Board
+4. GPS Board
+5. Radio Board
+
+## Meeting Topics
+1. To can or not to can?
+2. interconnects and mechanical connections in flight
+3. redundancy
