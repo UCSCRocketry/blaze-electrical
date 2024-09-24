@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Blaze_Library")(type "KiCad")(uri "C:/Users/Fish/Documents/GitHub/blaze-electrical/hardware/Blaze_Library.pretty")(options "")(descr ""))
+)
