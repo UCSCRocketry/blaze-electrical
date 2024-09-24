@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "86bdf6fb-b933-4971-a096-dd7ab50bb164")
 	(paper "A4")
+	(title_block
+		(title "Blaze GPS")
+		(date "2024-09-23")
+		(rev "1")
+		(company "UCSC Rocket Team")
+		(comment 1 "Designed by Julian Barbera")
+	)
 	(lib_symbols
 		(symbol "Blaze_Lib:TCAN1044"
 			(exclude_from_sim no)
