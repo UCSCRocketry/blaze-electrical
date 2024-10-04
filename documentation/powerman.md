@@ -1,9 +1,9 @@
-# Power Managment
-The power managment system is designed to provide reliable, redundent, clean power to the entire Blaze system. The power is generated using multiple buck converters powered by a battery with a hard power switch. Dedicated current and voltage sensing allows for precise current and voltage spike event detection as well as battery charge monitoring. Reverse current and resettable over current protection enables for safe opperation with minimal downtime. LED indicators visably show voltage rails present.
+# Power Management
+The power management system is designed to provide reliable, redundant, clean power to the entire Blaze system. The power is generated using multiple buck converters powered by a battery with a hard power switch. Dedicated current and voltage sensing allows for precise current and voltage spike event detection as well as battery charge monitoring. Reverse current and resettable over current protection enables for safe operation with minimal downtime. LED indicators visibly show voltage rails present.
 
 Battery and hard power switch are connected through XT30 connectors.
 
-Blaze PowerMan utilizes the common Blaze co-processor and CAN tranciever design described in the common documentation.
+Blaze PowerMan utilizes the common Blaze co-processor and CAN transceiver design described in the common documentation.
 
 ## Specs
 
