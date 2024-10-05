@@ -7,6 +7,8 @@ Blaze PowerMan utilizes the common Blaze co-processor and CAN transceiver design
 
 ## Specs
 
+|Spec|Value|
+|-|-|
 |VIN Max|16V|
 |VIN Min|6.5V|
 |Current Draw Max|6A|
