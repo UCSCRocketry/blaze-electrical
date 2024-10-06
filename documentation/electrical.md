@@ -62,3 +62,10 @@ HiRose DF17 30 pin
 | 12 | 1PPS | 3.3V | 17 |
 | 13 | GND | Unused | 16 |
 | 14 | GND | Unused | 15 |
+
+## Common Co-Processor and CAN Transceiver
+A common design for a co-processor and CAN transceiver was developed in order to improve design flow and system performance.
+The co-processor selected is the STM32H503KBUx, it features an ARM Cortex M33 clocked at 250MHz, 128KB of onboard flash memory, and 32 Kb of RAM.
+The CAN tranciever selected is the TCAN1044VDDFR offering up to 8Mbps of full duplex CAN-FD communication 
+
+
