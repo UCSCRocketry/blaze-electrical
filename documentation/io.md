@@ -1,4 +1,9 @@
-STM32 STM32H503KBUx Pin Mapping
+# Input Output (IO)
+The Blaze IO board provides external inputs and outputs to the system. Four channels of MOSFETS allow pyro charges to be triggered on battery voltage. These outputs are protected by a physical arm switch. Outputs for 5V servos can be used to control TVC, active fins, and other control systems.
+     
+Blaze IO utilizes the common Blaze co-processor and transceiver described in the common documentation.
+
+## STM32 STM32H503KBUx Pin Mapping
 
 | Port | Physical Pin | Use | Function |
 |-----|-----------|------|----------|

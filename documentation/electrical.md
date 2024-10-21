@@ -1,10 +1,20 @@
 # Electrical
-## Summary of Boards
-GPS
-- GPS Module with antenna that can interface with sensor fusion
-- TODO: Spec antenna
 
-IMU
+## Summary of Boards
+
+### Brain Board
+MCU
+- V0 Board is a Teensy 4.0 Carrier Board
+    - V1 Board will use a MCU from the same series. V0 decision made to speed development.
+- Neopixel integrated
+- SPI Flash memory
+- Micro SD
+- Physical arm switch
+
+### GPS
+U-blox ZED-F9R
+
+### IMU
 - Board with sensors and sensor fusion processing
 
 | Sensor | Manufacturer | Model |
@@ -16,37 +26,24 @@ IMU
 | Barometer | TE | MS561101 |
 | Magnetometer | PNI | RM3100 |
 
-Brain Board
-- MCU
-- V0 Board is a Teensy 4.0 Carrier Board
-    - V1 Board will use a MCU from the same series. V0 decision made to speed development.
-- Interconnect to IO board
-- Neopixel integrated and output
-- SPI Flash memory - Winbond W25
-- Micro SD
-- AUX power in
-- Physical arm switch
+### IO Board
+Inputs and outputs, as well as pyro switches
 
-IO Board
-- Inputs and outputs, as well as pyro switches
-- TODO: List input and output requirements
-
-Radio Board
-- Radio communication with ground control
+### Radio Board
+Radio communication with ground control
 - RFD900X Module
 
-Power Management Board
-- Creates voltages of battery for rest of boards
-- 3.3V@2A 5V@2A V<sub>batt</sub>
-- 2S (7.4V) - 3S (11.1V) LiPo XT60 input
+### Power Management Board
+Creates voltages off battery to distribute to system
+- 3.3V@<F3>3A 5V@3A V<sub>batt</sub>
+- 6.5V - 16V XT30 input
 
 ## Standards
-Footprint
-- 45mm round
 
-Interconnects
-- HiRose DF17 30 pin
-- Interconnect map
+### Interconnect
+HiRose DF17 30 pin
+
+### Interconnect mapping
 
 | # | Assingment | Assingment | # |
 | - | ---------- | ---------- | - |
@@ -66,15 +63,9 @@ Interconnects
 | 13 | GND | Unused | 16 |
 | 14 | GND | Unused | 15 |
 
-## Development Order
-1. Brain Board v0
-2. Power Management Board
-4. Sense Board
-3. IO Board
-4. GPS Board
-5. Radio Board
+## Common Co-Processor and CAN Transceiver
+A common design for a co-processor and CAN transceiver was developed in order to improve design flow and system performance.
+The co-processor selected is the STM32H503KBUx, it features an ARM Cortex M33 clocked at 250MHz, 128KB of onboard flash memory, and 32 Kb of RAM.
+The CAN tranciever selected is the TCAN1044VDDFR offering up to 8Mbps of full duplex CAN-FD communication 
 
-## Meeting Topics
-1. To can or not to can?
-2. interconnects and mechanical connections in flight
-3. redundancy
+
