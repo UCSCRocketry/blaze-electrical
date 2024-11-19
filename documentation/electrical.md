@@ -51,15 +51,15 @@ HiRose DF17 30 pin
 | 1 | V<sub>batt</batt> | 3.3V | 28 |
 | 2 | GND | 5V | 27 |
 | 3 | GND | 5V | 26 |
-| 4 | RADIO TX | NEOPIXEL | 25 |
-| 5 | RADIO RX | AUDIO | 24 |
-| 6 | Unused | CAN1 HI | 23 |
-| 7 | Unused | CAN1 LO | 22 |
-| 8 | GPS RX | GND | 21 |
-| 9 | GPS TX | GND | 20 |
-| 10 | 5V | CAN2 HI | 19 |
-| 11 | 3.3V | CAN2 LO | 18 |
-| 12 | 1PPS | 3.3V | 17 |
+| 4 | RADIO TX | Unused | 25 |
+| 5 | RADIO RX | Unused | 24 |
+| 6 | Unused | CAN HI | 23 |
+| 7 | Arm | CAN LO | 22 |
+| 8 | Unused | GND | 21 |
+| 9 | Unused | GND | 20 |
+| 10 | 5V | Unused | 19 |
+| 11 | 3.3V | Unused | 18 |
+| 12 | GPS PPS | 3.3V | 17 |
 | 13 | GND | Unused | 16 |
 | 14 | GND | Unused | 15 |
 
