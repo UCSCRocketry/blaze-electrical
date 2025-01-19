@@ -2647,7 +2647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 122.8852 68.58 0)
 			(effects
 				(font
@@ -2847,7 +2847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.5352 68.58 0)
 			(effects
 				(font
@@ -3378,7 +3378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DF17:HRS_DF17_1.0H_-30DP-0.5V_57_"
 			(at 180.34 57.15 0)
 			(effects
 				(font
