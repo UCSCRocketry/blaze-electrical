@@ -9522,7 +9522,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Blaze_Library:CONN_47219-2001_MOL"
 			(at 106.68 35.56 0)
 			(effects
 				(font
@@ -10921,7 +10921,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Blaze_Library:Teensy40"
 			(at 194.31 62.23 0)
 			(effects
 				(font
@@ -11419,7 +11419,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 88.9 157.48 0)
 			(effects
 				(font
@@ -12316,7 +12316,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 153.67 100.33 0)
 			(effects
 				(font
