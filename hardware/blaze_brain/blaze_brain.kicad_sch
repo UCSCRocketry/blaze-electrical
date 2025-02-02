@@ -7106,10 +7106,6 @@
 		(uuid "519fa85a-a5a6-4c47-9e0b-ec4d8f2c2809")
 	)
 	(no_connect
-		(at 176.53 53.34)
-		(uuid "5377f9d7-7d0e-4a84-9105-4a01c188eb9e")
-	)
-	(no_connect
 		(at 54.61 35.56)
 		(uuid "53ee4b05-ea90-42c9-8d57-6ed433fc18e8")
 	)
@@ -7188,10 +7184,6 @@
 	(no_connect
 		(at 176.53 68.58)
 		(uuid "e83d5249-5f8f-42a9-b0a1-c4425c4012af")
-	)
-	(no_connect
-		(at 176.53 55.88)
-		(uuid "f14d983e-3245-4c8a-ad1b-6954608e3c4c")
 	)
 	(no_connect
 		(at 176.53 76.2)
@@ -7654,6 +7646,26 @@
 			(type default)
 		)
 		(uuid "70a02860-81a3-49d7-85ef-600fcbbdba68")
+	)
+	(wire
+		(pts
+			(xy 173.99 55.88) (xy 176.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "746df9cb-2723-4264-a71e-0857502697db")
+	)
+	(wire
+		(pts
+			(xy 173.99 53.34) (xy 176.53 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ae83b8-6ec2-42b6-b3c5-60fa675fc672")
 	)
 	(wire
 		(pts
@@ -8326,6 +8338,17 @@
 		)
 		(uuid "00681b41-e02e-47b2-9ce2-372e2483a1a3")
 	)
+	(label "TX_RADIO"
+		(at 173.99 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05cd4aa3-ae62-480a-a0b4-5ca71c9d4e7c")
+	)
 	(label "MOSI"
 		(at 52.07 40.64 180)
 		(fields_autoplaced yes)
@@ -8479,6 +8502,17 @@
 			(justify right bottom)
 		)
 		(uuid "7464da7c-683c-4c71-976f-92f2c74084a5")
+	)
+	(label "RX_RADIO"
+		(at 173.99 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7af85688-6519-484f-9c7b-d422dcde9d6d")
 	)
 	(label "ARM"
 		(at 257.81 49.53 180)
