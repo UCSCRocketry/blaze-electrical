@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "blaze_io.kicad_pro",
+    "filename": "blazeTemplate.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -576,7 +576,7 @@
   },
   "sheets": [
     [
-      "364242f4-3b34-4bb6-a316-e0273e090451",
+      "d96f300b-87d4-4b9f-96ad-2ce544b71732",
       "Root"
     ]
   ],
