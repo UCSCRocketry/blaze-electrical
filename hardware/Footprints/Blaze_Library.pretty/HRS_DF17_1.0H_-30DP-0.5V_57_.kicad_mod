@@ -482,60 +482,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "312a7bc8-f3f1-4aca-9f1d-ed57eb112aed")
 	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "6fad3fbc-286e-473a-94fe-dc7e5e3389e0")
-		(hatch full 0.508)
-		(connect_pads
-			(clearance 0)
+	(model "C:/Users/Fish/Documents/GitHub/blaze-electrical/hardware/Footprints/DF17/DF17(3_0)-30DS-0_5V.stp"
+		(offset
+			(xyz -1.25 0 0)
 		)
-		(min_thickness 0.01)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
+		(scale
+			(xyz 1 1 1)
 		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -5.05 -2) (xy 5.05 -2) (xy 5.05 2) (xy -5.05 2)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layers "*.Cu")
-		(uuid "800e90a6-b295-4c22-a799-71301f85bda3")
-		(hatch full 0.508)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.01)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour allowed)
-			(footprints allowed)
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -5.05 -2) (xy 5.05 -2) (xy 5.05 2) (xy -5.05 2)
-			)
+		(rotate
+			(xyz 0 0 0)
 		)
 	)
 )

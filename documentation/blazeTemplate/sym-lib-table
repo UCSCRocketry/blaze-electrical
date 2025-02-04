@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Blaze_Lib")(type "KiCad")(uri "/home/fish/Documents/Git/blaze-electrical/hardware/Blaze_Lib.kicad_sym")(options "")(descr ""))
-)
