@@ -12023,28 +12023,6 @@
 			(layer "F.Fab")
 			(uuid "4b4b0775-f298-45c8-9d38-101331462573")
 		)
-		(fp_text user "+"
-			(at -8 0 90)
-			(layer "F.SilkS")
-			(uuid "298380c8-1e10-4995-a1f8-a01d59c72f19")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "-"
-			(at 3 0 90)
-			(layer "F.SilkS")
-			(uuid "e9ee96c8-1ea5-4213-bc17-041e7f613616")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at -2.5 -3 90)
 			(layer "F.Fab")
@@ -16915,6 +16893,18 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "9c27335c-7549-49af-b904-1571bb0387ec")
+	)
+	(gr_text "Blaze PowerMan v1\nUCSC Rocket Team\n2025"
+		(at 155.321 129.667 0)
+		(layer "B.SilkS")
+		(uuid "f9a445cd-732b-4f3a-b85a-3ae7425dd4b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(dimension
 		(type aligned)
