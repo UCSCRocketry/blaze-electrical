@@ -8070,12 +8070,6 @@
 		(uuid "270aa5f7-cc99-4f3f-b20e-2f293ff56bcb")
 	)
 	(junction
-		(at 180.34 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2878bb9f-3b8f-4d99-9619-eb88a639a96b")
-	)
-	(junction
 		(at 91.44 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8118,7 +8112,7 @@
 		(uuid "45a84433-5d4b-4c3e-93ac-79bf5742c9d7")
 	)
 	(junction
-		(at 256.54 97.79)
+		(at 251.46 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4618533f-9801-461c-ae63-c6327ed02e0a")
@@ -8158,6 +8152,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "503395a6-22f5-4a7c-b6b1-af0f2986758d")
+	)
+	(junction
+		(at 273.05 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "526d1064-7853-4626-a9a3-fb2a5fc76b91")
 	)
 	(junction
 		(at 273.05 100.33)
@@ -8232,6 +8232,12 @@
 		(uuid "7baa5c23-344a-4c99-8da4-43e20e2f9d67")
 	)
 	(junction
+		(at 256.54 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c928a8c-3803-4d2c-b369-7b3acd51f302")
+	)
+	(junction
 		(at 273.05 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8250,6 +8256,12 @@
 		(uuid "8bba6f88-4107-49df-aa48-ea35e4cb3226")
 	)
 	(junction
+		(at 180.34 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c3ddfbe-23ff-4b8c-9aec-6bb6100c6f03")
+	)
+	(junction
 		(at 140.97 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8266,12 +8278,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "918ac3d8-8955-4821-bb6b-cfbe838b60fd")
-	)
-	(junction
-		(at 180.34 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93696f42-c984-4b1e-a952-5a50f7b4d462")
 	)
 	(junction
 		(at 273.05 69.85)
@@ -8322,6 +8328,12 @@
 		(uuid "aaf6d275-d110-4811-b748-7d81fec039a5")
 	)
 	(junction
+		(at 180.34 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b007bdef-4290-4b4a-abaf-901f9d2eac12")
+	)
+	(junction
 		(at 273.05 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8350,6 +8362,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c50103c5-1f16-49cd-87d0-0e533bff0bcf")
+	)
+	(junction
+		(at 273.05 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8a46990-67f9-490b-a095-4a254e11faaf")
+	)
+	(junction
+		(at 256.54 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cce80e0f-5537-4551-be06-063607b0e303")
 	)
 	(junction
 		(at 273.05 49.53)
@@ -8458,6 +8482,15 @@
 	(no_connect
 		(at 64.77 144.78)
 		(uuid "e64b4a72-290e-400d-bbf2-b7ff8417f906")
+	)
+	(bus_entry
+		(at 177.8 78.74)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d77d19c-dd4c-43c9-a64d-601efe5ee17e")
 	)
 	(wire
 		(pts
@@ -8811,7 +8844,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 97.79) (xy 256.54 99.06)
+			(xy 251.46 97.79) (xy 251.46 99.06)
 		)
 		(stroke
 			(width 0)
@@ -9051,7 +9084,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 95.25) (xy 256.54 97.79)
+			(xy 251.46 95.25) (xy 251.46 97.79)
 		)
 		(stroke
 			(width 0)
@@ -9161,13 +9194,23 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 97.79) (xy 273.05 97.79)
+			(xy 251.46 97.79) (xy 273.05 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5f9ccb22-42c5-4424-b8f9-b085483fc353")
+	)
+	(wire
+		(pts
+			(xy 256.54 105.41) (xy 256.54 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6070f9bc-80e6-43ab-8f76-9136bab73ae1")
 	)
 	(wire
 		(pts
@@ -9361,7 +9404,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 95.25) (xy 273.05 95.25)
+			(xy 251.46 95.25) (xy 273.05 95.25)
 		)
 		(stroke
 			(width 0)
@@ -9408,6 +9451,16 @@
 			(type default)
 		)
 		(uuid "8460425f-6890-4a7d-bcb5-5db11a541f32")
+	)
+	(wire
+		(pts
+			(xy 256.54 104.14) (xy 256.54 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849da7b3-b92d-4706-844d-b77c64b97e3d")
 	)
 	(wire
 		(pts
@@ -9638,16 +9691,6 @@
 			(type default)
 		)
 		(uuid "a7052349-0d14-4069-8adc-b1f2355e3a7e")
-	)
-	(wire
-		(pts
-			(xy 180.34 68.58) (xy 180.34 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8ab80bf-89dd-413f-9a1b-7a1a1881d102")
 	)
 	(wire
 		(pts
@@ -10061,6 +10104,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 107.95) (xy 256.54 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de5b4f79-a1f0-47da-a94c-fcf33fa19b79")
+	)
+	(wire
+		(pts
 			(xy 153.67 127) (xy 153.67 125.73)
 		)
 		(stroke
@@ -10121,6 +10174,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 107.95) (xy 273.05 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7cb155b-29d0-473a-a0ae-a021f290dd66")
+	)
+	(wire
+		(pts
 			(xy 264.16 62.23) (xy 273.05 62.23)
 		)
 		(stroke
@@ -10128,6 +10191,16 @@
 			(type default)
 		)
 		(uuid "e86915e1-c0db-4a5e-ace3-747b985efbce")
+	)
+	(wire
+		(pts
+			(xy 256.54 105.41) (xy 273.05 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b0df16-f56f-4f4e-b92c-7defc9aafcd6")
 	)
 	(wire
 		(pts
@@ -10148,16 +10221,6 @@
 			(type default)
 		)
 		(uuid "eabc42ec-8730-411c-b4e3-b5666bea5aca")
-	)
-	(wire
-		(pts
-			(xy 180.34 40.64) (xy 180.34 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee45fbd7-ea6a-482a-9431-f32976ae619f")
 	)
 	(wire
 		(pts
@@ -10331,6 +10394,7 @@
 	)
 	(label "FET_A_SENSE"
 		(at 91.44 27.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10341,6 +10405,7 @@
 	)
 	(label "TCK{slash}SWCLK"
 		(at 105.41 157.48 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10351,6 +10416,7 @@
 	)
 	(label "RESET"
 		(at 64.77 124.46 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10361,6 +10427,7 @@
 	)
 	(label "FET_B_SENSE"
 		(at 158.75 27.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10371,6 +10438,7 @@
 	)
 	(label "TDO"
 		(at 64.77 147.32 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10381,6 +10449,7 @@
 	)
 	(label "TRST"
 		(at 64.77 149.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10391,6 +10460,7 @@
 	)
 	(label "CANH"
 		(at 276.86 153.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10401,6 +10471,7 @@
 	)
 	(label "ARM"
 		(at 45.72 78.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10410,7 +10481,8 @@
 		(uuid "23235988-fffc-49b8-967b-2cfffaf12f54")
 	)
 	(label "FET_C"
-		(at 105.41 129.54 0)
+		(at 105.41 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10420,7 +10492,8 @@
 		(uuid "28520674-4b59-4461-889a-635084b16a09")
 	)
 	(label "FET_B_SENSE"
-		(at 105.41 137.16 0)
+		(at 105.41 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10431,6 +10504,7 @@
 	)
 	(label "CANL"
 		(at 267.97 100.33 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10441,6 +10515,7 @@
 	)
 	(label "PPS"
 		(at 64.77 162.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10449,18 +10524,9 @@
 		)
 		(uuid "39c2189f-dac0-4597-8e63-db9665ae3c30")
 	)
-	(label "FET_A"
-		(at 66.04 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3dc97796-05e4-4b70-a3ed-28eaa7131960")
-	)
 	(label "SERVO_SIG_4"
 		(at 223.52 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10471,6 +10537,7 @@
 	)
 	(label "CANRX"
 		(at 64.77 152.4 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10481,6 +10548,7 @@
 	)
 	(label "RESET"
 		(at 139.7 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10491,6 +10559,7 @@
 	)
 	(label "FET_C_SENSE"
 		(at 91.44 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10501,6 +10570,7 @@
 	)
 	(label "FET_D_OUT"
 		(at 140.97 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10511,6 +10581,7 @@
 	)
 	(label "CANTX"
 		(at 64.77 154.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10521,6 +10592,7 @@
 	)
 	(label "PPS"
 		(at 267.97 74.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10531,6 +10603,7 @@
 	)
 	(label "TDI"
 		(at 105.41 160.02 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10541,6 +10614,7 @@
 	)
 	(label "RESET"
 		(at 35.56 129.54 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10551,6 +10625,7 @@
 	)
 	(label "SERVO_SIG_4"
 		(at 105.41 152.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10561,6 +10636,7 @@
 	)
 	(label "ARM"
 		(at 113.03 78.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10570,7 +10646,8 @@
 		(uuid "6f383c26-ead3-4c35-ab98-04c71512164e")
 	)
 	(label "FET_A_SENSE"
-		(at 105.41 134.62 0)
+		(at 105.41 142.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10581,6 +10658,7 @@
 	)
 	(label "TDI"
 		(at 139.7 151.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10591,6 +10669,7 @@
 	)
 	(label "CANH"
 		(at 267.97 102.87 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10601,6 +10680,7 @@
 	)
 	(label "TMS{slash}SWDAT"
 		(at 139.7 143.51 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10611,6 +10691,7 @@
 	)
 	(label "FET_B_OUT"
 		(at 140.97 27.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10621,6 +10702,7 @@
 	)
 	(label "TMS{slash}SWDAT"
 		(at 105.41 154.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10631,6 +10713,7 @@
 	)
 	(label "CANTX"
 		(at 203.2 152.4 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10641,6 +10724,7 @@
 	)
 	(label "SERVO_SIG_2"
 		(at 105.41 147.32 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10651,6 +10735,7 @@
 	)
 	(label "BOOT"
 		(at 64.77 129.54 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10661,6 +10746,7 @@
 	)
 	(label "FET_D_OUT"
 		(at 191.77 68.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10671,6 +10757,7 @@
 	)
 	(label "SERVO_SIG_2"
 		(at 223.52 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10680,7 +10767,8 @@
 		(uuid "9a52dcf0-8e3c-490b-a78e-fc9c17036a11")
 	)
 	(label "FET_A"
-		(at 105.41 124.46 0)
+		(at 105.41 129.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10691,6 +10779,7 @@
 	)
 	(label "ARM"
 		(at 267.97 62.23 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10701,6 +10790,7 @@
 	)
 	(label "FET_C_OUT"
 		(at 73.66 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10711,6 +10801,7 @@
 	)
 	(label "FET_D"
 		(at 113.03 83.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10721,6 +10812,7 @@
 	)
 	(label "FET_B"
 		(at 113.03 43.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10731,6 +10823,7 @@
 	)
 	(label "CANRX"
 		(at 203.2 154.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10740,7 +10833,8 @@
 		(uuid "ac3a2c4c-9c4a-4d0c-842e-a53db1482131")
 	)
 	(label "FET_C_SENSE"
-		(at 105.41 139.7 0)
+		(at 105.41 137.16 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10751,6 +10845,7 @@
 	)
 	(label "FET_D_SENSE"
 		(at 158.75 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10761,6 +10856,7 @@
 	)
 	(label "FET_A_OUT"
 		(at 191.77 35.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10771,6 +10867,7 @@
 	)
 	(label "FET_B_OUT"
 		(at 191.77 40.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10780,7 +10877,8 @@
 		(uuid "c02cfecb-d3b1-47a8-8cb6-7043c701d466")
 	)
 	(label "FET_B"
-		(at 105.41 127 0)
+		(at 105.41 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10791,6 +10889,7 @@
 	)
 	(label "TDO"
 		(at 139.7 148.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10801,6 +10900,7 @@
 	)
 	(label "ARM"
 		(at 45.72 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10811,6 +10911,7 @@
 	)
 	(label "SERVO_SIG_1"
 		(at 105.41 144.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10821,6 +10922,7 @@
 	)
 	(label "BOOT"
 		(at 34.29 157.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10831,6 +10933,7 @@
 	)
 	(label "FET_C"
 		(at 45.72 83.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10841,6 +10944,7 @@
 	)
 	(label "SERVO_SIG_3"
 		(at 105.41 149.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10850,7 +10954,8 @@
 		(uuid "dadbf1c6-e31c-420a-b6e5-7153996dba1c")
 	)
 	(label "FET_D_SENSE"
-		(at 105.41 142.24 0)
+		(at 105.41 134.62 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10861,6 +10966,7 @@
 	)
 	(label "FET_C_OUT"
 		(at 191.77 63.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10870,7 +10976,8 @@
 		(uuid "e3eb28f1-7be7-4f89-a838-5e952fa1a1c1")
 	)
 	(label "FET_D"
-		(at 105.41 132.08 0)
+		(at 105.41 127 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10881,6 +10988,7 @@
 	)
 	(label "FET_A"
 		(at 45.72 43.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10889,18 +10997,9 @@
 		)
 		(uuid "e791cf4d-33ba-43f9-ac9b-143ef4844468")
 	)
-	(label "FET_C"
-		(at 66.04 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e90d5e1c-9401-4c7a-b3a7-60534c2f3e12")
-	)
 	(label "SERVO_SIG_1"
 		(at 195.58 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10911,6 +11010,7 @@
 	)
 	(label "ARM"
 		(at 113.03 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10921,6 +11021,7 @@
 	)
 	(label "CANL"
 		(at 276.86 143.51 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10931,6 +11032,7 @@
 	)
 	(label "CAN_STB"
 		(at 218.44 152.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10941,6 +11043,7 @@
 	)
 	(label "TCK{slash}SWCLK"
 		(at 139.7 146.05 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10951,6 +11054,7 @@
 	)
 	(label "SERVO_SIG_3"
 		(at 195.58 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10961,6 +11065,7 @@
 	)
 	(label "FET_A_OUT"
 		(at 73.66 27.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12224,7 +12329,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 99.06 0)
+		(at 251.46 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12232,7 +12337,7 @@
 		(dnp no)
 		(uuid "2a63cd24-2075-44d5-873f-b022a51cb7ff")
 		(property "Reference" "#PWR07"
-			(at 256.54 105.41 0)
+			(at 251.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12241,7 +12346,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 102.87 0)
+			(at 251.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12249,7 +12354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 99.06 0)
+			(at 251.46 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12258,7 +12363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 99.06 0)
+			(at 251.46 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12267,7 +12372,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 99.06 0)
+			(at 251.46 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14389,6 +14494,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 180.34 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7498a275-ffb6-4146-aa5d-5f44cddb396a")
+		(property "Reference" "#PWR020"
+			(at 180.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBATT"
+			(at 180.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 180.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37eb9c58-08b5-43bd-9288-3a5ef8ab9f33")
+		)
+		(instances
+			(project "blaze_io"
+				(path "/364242f4-3b34-4bb6-a316-e0273e090451"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 184.15 149.86 0)
 		(unit 1)
@@ -15070,71 +15241,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 180.34 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8fa99734-55da-4f4a-982a-c09584417af8")
-		(property "Reference" "#PWR020"
-			(at 180.34 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 183.896 42.672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b7dea8c-36b4-42c9-ba3a-998b0feaa139")
-		)
-		(instances
-			(project "blaze_io"
-				(path "/364242f4-3b34-4bb6-a316-e0273e090451"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 133.35 52.07 90)
 		(unit 1)
@@ -15632,6 +15738,72 @@
 			(project "blaze_io"
 				(path "/364242f4-3b34-4bb6-a316-e0273e090451"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 180.34 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a84ce75-6602-473c-8986-57fcb6ee12c7")
+		(property "Reference" "#PWR024"
+			(at 180.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBATT"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c976b6e3-f040-40b0-82ba-692843c5db9a")
+		)
+		(instances
+			(project "blaze_io"
+				(path "/364242f4-3b34-4bb6-a316-e0273e090451"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -16310,7 +16482,8 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 256.54 110.49 0)
+		(at 256.54 104.14 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16318,7 +16491,7 @@
 		(dnp no)
 		(uuid "b9bd9943-3bdc-4bb7-8017-9f319b780dd6")
 		(property "Reference" "#PWR09"
-			(at 256.54 114.3 0)
+			(at 256.54 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16327,7 +16500,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 256.54 105.41 0)
+			(at 256.54 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16335,7 +16508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 110.49 0)
+			(at 256.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16344,7 +16517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 110.49 0)
+			(at 256.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16353,7 +16526,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 256.54 110.49 0)
+			(at 256.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17866,71 +18039,6 @@
 			(project "blaze_io"
 				(path "/364242f4-3b34-4bb6-a316-e0273e090451"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 180.34 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e15313cf-f3fc-4122-b099-e66bd65d1ff9")
-		(property "Reference" "#PWR024"
-			(at 180.34 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 183.896 70.612 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5032a89d-a95e-4d24-9b47-747195e26e73")
-		)
-		(instances
-			(project "blaze_io"
-				(path "/364242f4-3b34-4bb6-a316-e0273e090451"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
