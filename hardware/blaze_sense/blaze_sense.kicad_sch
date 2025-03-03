@@ -10308,6 +10308,12 @@
 		(uuid "309a8e94-aef8-425e-8b3c-4281caa92d92")
 	)
 	(junction
+		(at 289.56 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34207e19-d215-42ae-ae45-6d914af9b76b")
+	)
+	(junction
 		(at 187.96 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10456,12 +10462,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68ae4149-8abc-408a-831c-a81886b2ccd7")
-	)
-	(junction
-		(at 289.56 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "694e2848-ddc2-4691-8d73-41e8576cda3d")
 	)
 	(junction
 		(at 349.25 149.86)
@@ -14398,7 +14398,7 @@
 		)
 		(uuid "223c56f5-bf69-49b4-a601-ca528ad3e9e3")
 	)
-	(label "CANL"
+	(label "CANH"
 		(at 344.17 198.12 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15036,7 +15036,7 @@
 		)
 		(uuid "e1308065-c0bd-45fb-8905-71b2e3d1e56a")
 	)
-	(label "CANH"
+	(label "CANL"
 		(at 344.17 200.66 180)
 		(fields_autoplaced yes)
 		(effects
@@ -18732,6 +18732,7 @@
 	(symbol
 		(lib_id "Power_Protection:RCLAMP0582B")
 		(at 294.64 210.82 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18739,7 +18740,7 @@
 		(dnp no)
 		(uuid "737aa0f6-7bad-4ff7-9f78-b43f44c50c40")
 		(property "Reference" "D1"
-			(at 294.7035 201.93 0)
+			(at 295.148 204.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18747,7 +18748,7 @@
 			)
 		)
 		(property "Value" "ESDCAN03-2BM3Y"
-			(at 293.37 204.216 0)
+			(at 293.8145 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18755,7 +18756,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
-			(at 294.64 218.44 0)
+			(at 294.64 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18764,7 +18765,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0582b"
-			(at 295.91 208.28 0)
+			(at 295.91 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
