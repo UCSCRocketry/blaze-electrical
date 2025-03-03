@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BlazeLibrary")(type "KiCad")(uri "C:/Users/Dana/Desktop/blaze-electrical/hardware/Footprints/Blaze_Library.pretty")(options "")(descr ""))
+)

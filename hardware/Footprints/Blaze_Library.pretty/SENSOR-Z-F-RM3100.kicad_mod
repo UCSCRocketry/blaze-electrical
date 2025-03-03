@@ -1,0 +1,101 @@
+(footprint "SENSOR-Z-F-RM3100"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 -4.772 0)
+		(layer "F.SilkS")
+		(uuid "99d6930a-dbea-42a4-9c0b-aca9e1a149b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SENSOR-Z-F-RM3100"
+		(at 0 3.8195 0)
+		(layer "F.Fab")
+		(uuid "a5a0a92c-d7dc-46bc-8fba-f33a0d4bfceb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d30c8afd-4c80-4ec0-9f0e-986e916ea36a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69ad8d41-b197-402d-89dd-d325fdffe484")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d64daf02-f2e1-456f-b1f3-23bc3e63c1f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.27 -2.921)
+		(end 1.143 -2.921)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d7d464e4-426f-4454-aae2-655268a4017c")
+	)
+	(fp_rect
+		(start -1.27 -3.81)
+		(end 1.27 2.8575)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "dcf55f5e-b46a-4c86-86b3-67591b81c0bd")
+	)
+	(pad "1" smd rect
+		(at 0 -1.4)
+		(size 1.95 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "69b99b37-da3a-4aa7-aeb4-5bbae6154d17")
+	)
+	(pad "2" smd rect
+		(at 0 1.4)
+		(size 1.95 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "ced54463-d4db-4ff7-a599-c1dbb196541f")
+	)
+)
